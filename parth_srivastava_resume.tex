@@ -1,0 +1,183 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/parth-srivastava-949742192/}{\Large Parth Srivastava}} & Email : \href{mailto:parth0803@gmail.com}{parth0803@gmail.com}\\
+  {\href{https://github.com/savss624}{Github}}, {\href{https://www.linkedin.com/in/parth-srivastava-949742192/}{LinkedIn}}, {\href{https://twitter.com/savss624}{Twitter}} & Mobile : +91 7525044512 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {SRM Institute of Science and Technology}{Chennai, India}
+      {Bachelor of Engineering in Computer Science;  GPA: 9.72/10.0}{June. 2019 -- May. 2023}
+  \resumeSubHeadingListEnd  
+  
+  
+%-----------COURSEWORK-----------------
+\section{Coursework}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://ninjasfiles.s3.amazonaws.com/certificate14114222a869819638b05b52e15bd804183246b.pdf}{Data Science and Machine Learning (Coding Ninjas)}}{Delhi, India}
+      {Data Cleaning, Data Visualization, Scraping, Statistics, Machine Learning, Deep Learning}{Feb. 2021 -- Aug. 2021}
+  \resumeSubHeadingListEnd   
+  
+  
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+   \resumeSubHeadingListStart
+    \resumeSubItem{Proficient}
+      {Python, Numpy, Pandas,  NLP, scikit-learn, Tensorflow, Keras, Selenium}
+    \resumeSubItem{Familier}
+      {API, Flask, Seaborn, Tableau, git}
+    \resumeSubItem{Databases}
+      {SQL}
+  \resumeSubHeadingListEnd
+  
+ 
+%--------PROJECTS------------
+\section{Projects}
+   \resumeSubHeadingListStart
+   
+    \resumeSubheading
+     {{\href{https://github.com/savss624/ScholarAid}{ScholarAid}} - {\href{https://drive.google.com/file/d/16FmYzj0ywmVnXxMNeyuHloALYQJkNVQ7/view?usp=sharing}{(SRM Hackathon Project)}}}{Languages: Python, Flutter}
+     {Application to make Online Teaching effective and efficient using AI and AR}{}
+     \resumeItemListStart
+        \resumeItem{My Contributions}
+          {I build the question paper generator, question answering model, and paragraph summary generator using famous NLP transformers. Also, build a result data visualizer.}
+        \resumeItem{Project Achievement}
+          {Awarded with Special Mention Award at SRM Hackathon.}
+      \resumeItemListEnd
+      
+   \resumeSubheading
+     {{\href{https://github.com/savss624/ThinkArt}{ThinkArt} }- {\href{https://drive.google.com/file/d/1VC3gtZcvzoB309PDeM0TbuI-0nAfBffA/view?usp=sharing}{(HackTrix Hackathon Project)}}}{Languages: Python, Flutter}
+     {Application to support Painting Industry}{}
+      \resumeItemListStart
+        \resumeItem{My Contributions}
+          {I build a Painting generator using the DeepDaze algorithm and Painting style conversion tasks like a painting to sketch.}
+        \resumeItem{Project Achievement}
+          {Awarded with Honourable Mention Award at HackTrix Hackathon.}
+        \resumeItem{EchoAR}
+          {This project was also mentioned on EchoAR's Inspiration Page.}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+     {{\href{https://github.com/savss624/SafeLink}{SafeLink}} - {\href{https://drive.google.com/file/d/1-vXKT2rGWPcYgm0zPiRzo5UukzaXSac-/view?usp=sharing}{(GeeksforGeeks Hackathon Project)}}}{Languages: Python, Flutter}
+     {Application for the people who feel unsafe while traveling alone}{}
+     \resumeItemListStart
+        \resumeItem{My Contributions}
+          {I build continuous speech recognizer through which user can give a specific command for help even if their device is locked.}
+       \resumeItem{Project Achievement}
+          {Won the GeeksforGeeks Hackathon.}
+      \resumeItemListEnd
+   
+    \resumeSubheading
+     {\href{https://github.com/savss624/Gmeet-Automation}{Gmeet Automation}}{Languages: Python, Selenium}
+     {Selenium Script}{}
+     \resumeItemListStart
+        \resumeItem{About}
+          {A script I made using Selenium to automate user's daily meetings, so as to make their life easier and efficient.}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+
+%--------ADDITIONAL INFOMATION------------
+\section{Additional Information}
+ \resumeSubHeadingListStart
+   \resumeSubItem{Awards}
+     {Winner of HackYuva Hackathon, SyntHacks, Codestellation 2020}
+   \resumeSubItem{Other Works}
+     {{\href{https://github.com/savss624/State-Farm-Distracted-Driver-Detector}{State Farm Distracted Driver Detector}}{\href{https://www.kaggle.com/c/state-farm-distracted-driver-detection/overview}{(Kaggle Competition)}}, {\href{https://github.com/savss624/Movie-Recommendation}{Movie Recommendation System}}}
+   \resumeSubItem{Other Skills}
+     {Flutter, Firebase, Java, HTML, CSS, Javascript, Nodejs}
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
