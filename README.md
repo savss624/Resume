@@ -1,3 +1,3 @@
 # Resume
 
-<embed src="https://github.com/savss624/Resume/blob/main/Resume%20Parth%20Srivastava.pdf" width="800px" height="2100px" />
+<embed src="https://savss624.github.io/Resume/Resume%20Parth%20Srivastava.pdf" width="800px" height="2100px" />
